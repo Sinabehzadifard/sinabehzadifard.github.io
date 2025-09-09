@@ -31,7 +31,7 @@ menu:
 params:
     description: "This is Sina! I am a PhD student at Stockholm School of Economics. My research interests include Sustainable Operations and Supply Chain Management under the emergence of Technologies."
     author: Sina Behzadifard
-    # googleAnalyticsID: "G-XXXXX"
+    # googleAnalyticsID: "G-BREBRET3HH"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -56,7 +56,7 @@ params:
           enabled: true
           title: Sina Behzadifard
           subtitle: "This is Sina!"
-          imageUrl: "profile.png"
+          imageUrl: "profile.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
