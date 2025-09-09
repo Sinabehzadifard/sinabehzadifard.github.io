@@ -12,21 +12,21 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
+        #- name: Books
+        #  url: books/
+        #  weight: 5 
+        - name: Research
           url: papers/
           weight: 2
-        - name: Courses
+        - name: Teaching
           url: courses/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        #- name: Data
+        #  url: data/
+        #  weight: 4 
+        #- name: Blog
+        #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        #  weight: 6
 
 params:
     description: "This is Sina! I am a PhD student at Stockholm School of Economics. My research interests include Sustainable Operations and Supply Chain Management under the emergence of Technologies."
