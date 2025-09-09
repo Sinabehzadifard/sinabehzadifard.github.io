@@ -33,7 +33,7 @@ params:
     author: Sina Behzadifard
     # googleAnalyticsID: "G-BREBRET3HH"
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: dark
     hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
