@@ -81,7 +81,9 @@ params:
         - name: Email
           url: mailto:sina.behzaidfard@hhs.se
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com/citations?user=zb_KfDIAAAAJ&hl=en
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/sinabehzadifard/
         - name: GitHub
           url: https://github.com/sinabehzadifard
     assets:
