@@ -44,7 +44,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["books","courses"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -60,18 +60,18 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
+            - name: Research
               url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
+            #- name: Data
+            #  url: data/
+            #- name: Books
+            #  url: books/
+            - name: Teaching
               url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
+            #- name: Tags
+            #  url: tags/
+            #- name: Archive
+            #  url: archive/
             #- name: Blog
             #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
