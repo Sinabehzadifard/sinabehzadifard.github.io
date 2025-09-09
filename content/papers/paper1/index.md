@@ -2,7 +2,7 @@
 title: "Learn About Necessary Condition Analysis (NCA) in R in the Context of Private Equity in SMEs" 
 date: 2023-03-25
 tags: ["nca","teaching","firm","dataset"]
-author: ["Uyen Vu",  "Sina Behzadifard]
+author: ["Uyen Vu",  "Sina Behzadifard"]
 description: "" 
 summary: "This paper aims to provide a step-by-step guide for learning Necessary Condition Analysis (NCA) in R software. We start with a brief introduction to the dataset that we will use to analyze. Then, we will walk through a step-by-step process to test the necessary condition hypotheses we proposed in the student guide and interpret the results."
  
