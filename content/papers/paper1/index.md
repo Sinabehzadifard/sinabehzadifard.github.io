@@ -1,10 +1,11 @@
 ---
-title: "Unusual Uses For Olive Oil" 
-date: 2013-01-15
-tags: ["philology","oleic science","history of oil","Mediterranean world"]
-author: ["Detlev Amadeus Unterholzer","Moritz-Maria von Igelfeld"]
-description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
-summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
+title: "Learn About Necessary Condition Analysis (NCA) in R in the Context of Private Equity in SMEs" 
+date: 2023-03-25
+tags: ["nca","teaching","firm","dataset"]
+author: ["Uyen Vu",  "Sina Behzadifard]
+description: "" 
+summary: "This paper aims to provide a step-by-step guide for learning Necessary Condition Analysis (NCA) in R software. We start with a brief introduction to the dataset that we will use to analyze. Then, we will walk through a step-by-step process to test the necessary condition hypotheses we proposed in the student guide and interpret the results."
+ 
 cover:
     image: "paper1.png"
     alt: "Some Uses For Olive Oil"
