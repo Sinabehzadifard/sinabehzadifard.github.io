@@ -3,7 +3,8 @@ title: Sina Behzadifard
 theme: PaperMod
 
 ignoreFiles:
-  - '(^|/)(courses|books|data)/'
+  - '(^|/)(books|data)/'
+  - '(^|/)courses/course[12]/'
   - '/papers/paper[23]/'
   - '(location|officehours)[.]md$'
 enableInlineShortcodes: true
@@ -22,8 +23,8 @@ menu:
         - name: Research
           url: papers/
           weight: 2
-        - name: Substack
-          url: https://sinabehzadifard.substack.com/
+        - name: Teaching
+          url: courses/
           weight: 3
         #- name: Data
         #  url: data/
@@ -48,7 +49,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["papers"]
+    MainSections: ["papers","courses"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -61,6 +62,7 @@ params:
           title: Sina Behzadifard
           subtitle: "I am a postdoctoral researcher in Supply and Operations Management at Chalmers University of Technology. I study how manufacturers organize environmental practices across plants and how the information consumers receive in repair quotes shapes their decisions."
           imageUrl: "profile.jpg"
+          imageTitle: "Sina Behzadifard"
           imageWidth: 160
           imageHeight: 160
           buttons:
@@ -70,8 +72,8 @@ params:
             #  url: data/
             #- name: Books
             #  url: books/
-            - name: Substack
-              url: https://sinabehzadifard.substack.com/
+            - name: Teaching
+              url: courses/
             #- name: Tags
             #  url: tags/
             #- name: Archive
@@ -79,6 +81,13 @@ params:
             #- name: Blog
             #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
+    schema:
+        publisherType: Person
+        sameAs:
+            - "https://scholar.google.com/citations?user=zb_KfDIAAAAJ&hl=en"
+            - "https://www.linkedin.com/in/sinabehzadifard/"
+            - "https://github.com/sinabehzadifard"
+            - "https://sinabehzadifard.substack.com/"
     socialIcons:
         - name: CV
           url: cv.pdf
@@ -90,6 +99,8 @@ params:
           url: https://www.linkedin.com/in/sinabehzadifard/
         - name: GitHub
           url: https://github.com/sinabehzadifard
+        - name: Substack
+          url: https://sinabehzadifard.substack.com/
     assets:
         disableScrollBarStyle: true
     cover:
