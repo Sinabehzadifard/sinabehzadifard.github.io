@@ -11,7 +11,9 @@
 <title>
   {{- if eq .Kind "404" -}}
     404: Page not found | {{ .Site.Title }}
-  {{- else if and (not .IsHome) .Title -}}
+  {{- else if .IsHome -}}
+    {{ .Site.Title }} | Operations and Supply Chain Management
+  {{- else if .Title -}}
     {{ .Title }} | {{ .Site.Title }}
   {{- else -}}
     {{ .Site.Title }}
