@@ -3,29 +3,25 @@ title: "Learn About Necessary Condition Analysis (NCA) in R in the Context of Pr
 date: 2023-03-25
 tags: ["nca", "teaching", "firm", "dataset"]
 author: ["Uyen Vu", "Sina Behzadifard"]
-description: "Uyen Vu and Sina Behzadifard introduce Necessary Condition Analysis in R using a private equity dataset on small and medium-sized enterprises."
-scholarly: true
-citationType: "resource"
-citationDate: "2023"
-citationDoi: "10.4135/9781529668209"
+description: ""
 summary: "A step-by-step guide to performing Necessary Condition Analysis (NCA) in R using a private equity SME dataset."
 cover:
   image: "paper1.png"
   alt: "NCA"
   relative: true
 editPost:
-  url: "https://doi.org/10.4135/9781529668209"
+  url: "https://methods.sagepub.com/dataset/nca-private-equity-sme-r"
   text: "Sage Research Methods"
 ---
 
 ***
 
-## Overview
+##### Abstract
 
 This paper aims to provide a step-by-step guide for learning Necessary Condition Analysis (NCA) in R software. We start with a brief introduction to the dataset that we will use to analyze. Then, we walk through a step-by-step process to test the necessary condition hypotheses we proposed in the student guide and interpret the results.
 
 ***
 
-## Citation
+##### Citation
 
-Vu U., Behzadifard S. (2023). *Learn About Necessary Condition Analysis (NCA) in R in the Context of Private Equity in SMEs*. [Sage Research Methods](https://doi.org/10.4135/9781529668209).
+Vu U., Behzadifard S. (2023). *Learn About Necessary Condition Analysis (NCA) in R in the Context of Private Equity in SMEs*. [Sage Research Methods](https://methods.sagepub.com/dataset/nca-private-equity-sme-r).
