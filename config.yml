@@ -36,7 +36,6 @@ menu:
 params:
     description: "Sina Behzadifard is a postdoctoral researcher at Chalmers University of Technology studying environmental operations management and repair decisions."
     author: Sina Behzadifard
-    images: ["profile.jpg"]
     # googleAnalyticsID: "G-BREBRET3HH"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -61,7 +60,7 @@ params:
     profileMode:
           enabled: true
           title: Sina Behzadifard
-          subtitle: "I am a postdoctoral researcher in Supply and Operations Management at [Chalmers University of Technology](https://www.chalmers.se/en/persons/sinab/). I study how manufacturers integrate core and peripheral environmental practices into their operations and how consumers make repair decisions."
+          subtitle: "I am a postdoctoral researcher in Supply and Operations Management at Chalmers University of Technology. I study how manufacturers organize environmental practices across plants and how the information consumers receive in repair quotes shapes their decisions."
           imageUrl: "profile.jpg"
           imageTitle: "Sina Behzadifard"
           imageWidth: 160
@@ -85,8 +84,6 @@ params:
     schema:
         publisherType: Person
         sameAs:
-            - "https://www.chalmers.se/en/persons/sinab/"
-            - "https://orcid.org/0000-0002-9825-5524"
             - "https://scholar.google.com/citations?user=zb_KfDIAAAAJ&hl=en"
             - "https://www.linkedin.com/in/sinabehzadifard/"
             - "https://github.com/sinabehzadifard"
@@ -95,11 +92,9 @@ params:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:sinab@chalmers.se
+          url: mailto:sina.behzaidfard@gmail.com
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=zb_KfDIAAAAJ&hl=en
-        - name: ORCID
-          url: https://orcid.org/0000-0002-9825-5524
         - name: LinkedIn
           url: https://www.linkedin.com/in/sinabehzadifard/
         - name: GitHub
