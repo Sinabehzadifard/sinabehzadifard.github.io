@@ -79,7 +79,7 @@ params:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:sina.behzaidfard@hhs.se
+          url: mailto:sina.behzaidfard@gmail.com
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=zb_KfDIAAAAJ&hl=en
         - name: LinkedIn
