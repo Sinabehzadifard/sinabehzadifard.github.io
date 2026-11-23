@@ -2,6 +2,10 @@ baseURL: "https://sinabehzadifard.github.io/"
 title: Sina Behzadifard
 theme: PaperMod
 
+ignoreFiles:
+  - '(^|/)(courses|books|data)/'
+  - '/papers/paper[23]/'
+  - '(location|officehours)[.]md$'
 enableInlineShortcodes: true
 enableRobotsTXT: true
 pagination:
@@ -18,8 +22,8 @@ menu:
         - name: Research
           url: papers/
           weight: 2
-        - name: Teaching
-          url: courses/
+        - name: Substack
+          url: https://sinabehzadifard.substack.com/
           weight: 3
         #- name: Data
         #  url: data/
@@ -29,7 +33,7 @@ menu:
         #  weight: 6
 
 params:
-    description: "This is Sina! I am a PhD student at Stockholm School of Economics. My research interests include Sustainable Operations and Supply Chain Management under the emergence of Technologies."
+    description: "Sina Behzadifard is a postdoctoral researcher at Chalmers University of Technology studying environmental operations management and repair decisions."
     author: Sina Behzadifard
     # googleAnalyticsID: "G-BREBRET3HH"
     DateFormat: "January 2006"
@@ -44,7 +48,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["papers","courses"]
+    MainSections: ["papers"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -55,7 +59,7 @@ params:
     profileMode:
           enabled: true
           title: Sina Behzadifard
-          subtitle: "This is Sina! I am a Doctoral Candidate at Stockholm School of Economics. My research interests include Sustainable Operations and Supply Chain Management under the emergence of Technologies."
+          subtitle: "I am a postdoctoral researcher in Supply and Operations Management at Chalmers University of Technology. I study how manufacturers organize environmental practices across plants and how the information consumers receive in repair quotes shapes their decisions."
           imageUrl: "profile.jpg"
           imageWidth: 160
           imageHeight: 160
@@ -66,8 +70,8 @@ params:
             #  url: data/
             #- name: Books
             #  url: books/
-            - name: Teaching
-              url: courses/
+            - name: Substack
+              url: https://sinabehzadifard.substack.com/
             #- name: Tags
             #  url: tags/
             #- name: Archive
