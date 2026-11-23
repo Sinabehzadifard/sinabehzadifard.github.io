@@ -24,6 +24,7 @@
 </div>
 {{- end }}
 
+{{- if not .Params.curated }}
 {{- $pages := union .RegularPages .Sections }}
 
 {{- if .IsHome }}
@@ -102,6 +103,7 @@
 </footer>
 {{- end }}
 
+{{- end }}{{/* automatic listing */}}
 {{- end }}{{/* end profileMode */}}
 
 {{- end }}{{- /* end main */ -}}

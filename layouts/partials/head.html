@@ -22,6 +22,7 @@
 
 {{- /* Meta */}}
 {{- if .IsHome }}
+<meta name="google-site-verification" content="UrLj79XPFPdekLNnjR9n_dGu88-qRXQAVKgMU0joKPY">
 {{ with site.Params.keywords -}}<meta name="keywords" content="{{- range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">{{ end }}
 {{- else }}
 <meta name="keywords" content="{{ if .Params.keywords -}}
@@ -145,7 +146,52 @@
 
 {{- partial "templates/opengraph.html" . }}
 {{- partial "templates/twitter_cards.html" . }}
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.Params.author }},
+  "url": {{ .Permalink }},
+  "description": {{ site.Params.description }},
+  "image": {{ site.Params.profileMode.imageUrl | absURL }},
+  "sameAs": {{ site.Params.schema.sameAs }}
+}
+</script>
+{{- else if and .IsPage .Params.scholarly }}
+<meta name="citation_title" content="{{ .Title }}">
+{{- $authors := slice }}
+{{- range .Params.author }}
+<meta name="citation_author" content="{{ . }}">
+{{- $authors = $authors | append (dict "@type" "Person" "name" .) }}
+{{- end }}
+<meta name="citation_publication_date" content="{{ .Params.citationDate }}">
+{{- if eq .Params.citationType "journal" }}
+<meta name="citation_journal_title" content="{{ .Params.citationVenue }}">
+{{- else if eq .Params.citationType "conference" }}
+<meta name="citation_conference_title" content="{{ .Params.citationVenue }}">
+{{- end }}
+{{- with .Params.citationInstitution }}<meta name="citation_dissertation_institution" content="{{ . }}">{{ end }}
+{{- with .Params.citationVolume }}<meta name="citation_volume" content="{{ . }}">{{ end }}
+{{- with .Params.citationIssue }}<meta name="citation_issue" content="{{ . }}">{{ end }}
+{{- with .Params.citationFirstpage }}<meta name="citation_firstpage" content="{{ . }}">{{ end }}
+{{- with .Params.citationLastpage }}<meta name="citation_lastpage" content="{{ . }}">{{ end }}
+{{- with .Params.citationDoi }}<meta name="citation_doi" content="{{ . }}">{{ end }}
+{{- $types := dict "journal" "ScholarlyArticle" "conference" "ScholarlyArticle" "dissertation" "Thesis" "resource" "LearningResource" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": {{ index $types .Params.citationType | default "CreativeWork" }},
+  "name": {{ .Title }},
+  "url": {{ .Permalink }},
+  "author": {{ $authors }},
+  {{ with .Params.citationDoi }}"sameAs": {{ printf "https://doi.org/%s" . }},{{ end }}
+  "datePublished": {{ replace .Params.citationDate "/" "-" }}
+}
+</script>
+{{- else }}
 {{- partial "templates/schema_json.html" . }}
+{{- end }}
 
 {{ if and (hugo.IsProduction) (.Site.Params.googleAnalyticsID) }}
 {{- partial "analytics.html" . }}
